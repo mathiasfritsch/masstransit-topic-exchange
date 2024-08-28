@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C13F2FD6-0C59-4125-A84A-8D8A1CF36A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Api", "src\Sample.Api\Sample.Api.csproj", "{1FD972CF-A966-4076-B546-45B2E3D48FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Contracts", "src\Sample.Contracts\Sample.Contracts.csproj", "{BF88C1FC-A2A5-498E-A4AF-C56EBE09568B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "slnitems", "slnitems", "{80B5639F-DEE1-47EA-8943-4D2B61A01702}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FD972CF-A966-4076-B546-45B2E3D48FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD972CF-A966-4076-B546-45B2E3D48FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD972CF-A966-4076-B546-45B2E3D48FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD972CF-A966-4076-B546-45B2E3D48FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF88C1FC-A2A5-498E-A4AF-C56EBE09568B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF88C1FC-A2A5-498E-A4AF-C56EBE09568B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF88C1FC-A2A5-498E-A4AF-C56EBE09568B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF88C1FC-A2A5-498E-A4AF-C56EBE09568B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FD972CF-A966-4076-B546-45B2E3D48FE4} = {C13F2FD6-0C59-4125-A84A-8D8A1CF36A4E}
+		{BF88C1FC-A2A5-498E-A4AF-C56EBE09568B} = {C13F2FD6-0C59-4125-A84A-8D8A1CF36A4E}
+	EndGlobalSection
+EndGlobal
